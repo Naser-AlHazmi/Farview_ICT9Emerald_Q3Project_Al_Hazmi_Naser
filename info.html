@@ -110,10 +110,14 @@
 
 			<br><br>
 
-			<button type="Submit" class="btn btn-success">Print Ticket</button>
+			<button type="Submit" class="btn btn-success" onclick="message()">Print Ticket</button>
 
 		</form>
 
 	</center>
-
+        <script>
+	 function message(){
+	var name = document.getElementById("name").value
+          window.alert("Thank You! Please proceed to the next step"  + name);	 
+	</script>
 </body>
