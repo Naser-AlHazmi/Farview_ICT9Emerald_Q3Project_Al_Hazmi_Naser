@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 
 <html>
@@ -17,7 +16,7 @@
 
 		body {
 
-			background-color: grey; background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/72/Line_3_Quezon_Avenue_Station_Platform_1.jpg);  background-repeat: no-repeat; background-size: cover; background-attachment: fixed;
+			background-color: grey; background-image: url(https://upload.wikimedia.org/wikipedia/commons/7/72/Line_3_Quezon_Avenue_Station_Platform_1.jpg);  background-repeat: no-repeat; background-size: cover;
 
 		}
 
@@ -35,14 +34,20 @@
 
 		.bck3 {
 
-			background-color: rgba(255, 255, 255, 0.5); padding: 20px; border-radius: 20px; margin: 20px; margin-top: 175px;
+			background-color: rgba(255, 255, 255, 0.5); padding: 20px; border-radius: 20px; margin: 20px; margin-top: 150px;
 
 		}
 
 
 		.bck4 {
 
-			background-color: rgba(255, 255, 255, 0.5); padding: 20px; border-radius: 20px; margin: 15px; 
+			background-color: rgba(0, 0, 0, 0.8); padding: 20px; border-radius: 20px; margin: 15px; 
+
+		}
+
+		.bck5 {
+
+			background-color: rgba(0, 0, 0, 0.8); padding: 200px 
 
 		}
 
@@ -64,7 +69,7 @@
 					
 					<li class="nav-item">
 						
-						<a class="nav-link" href="page1.html"><button class="btn btn-outline-light">Home</button></a>
+						<a class="nav-link" href="index.html"><button class="btn btn-outline-light">Home</button></a>
 
 					</li>
 
@@ -97,9 +102,13 @@
 
 	<center>
 
-		<div class="bck">
+		<div class="bck5">
 
-			<h1>Fare Guide</h1>
+			<center>
+
+			<h1 style="color: white; background-image: url(https://transportnsw.info/sites/default/files/image/2024/06/page-header-metro-logo-tunnel-crop-train.jpg); width: 1000px;">Fare Guide</h1>
+
+			</center>
 
 		</div>
 
@@ -111,9 +120,15 @@
 			
 			<div class="col-md-6">
 
-				<div class="bck">
+				<div style="background-color: rgba(255, 255, 255, 0.5); padding: 20px; border-radius: 20px; margin: 20px; width: 600px; width: 450px; height: 520px; width: 600px; margin-top: 150px;">
 				
 					<img src="https://www.researchgate.net/profile/Joseph-Rei-Mark-Co-2/publication/338684954/figure/fig2/AS:849082482429954@1579448447262/Metro-Manila-railway-transit-map_Q320.jpg" style="margin: 20px;" class="img-thumbnail mx-auto d-block">
+
+					<center>
+
+					<h5 class="bck4" style="color: white;">Manila Metro Stations</h5>
+
+					</center>
 
 				</div>
 
@@ -123,11 +138,11 @@
 
 				<center>
 
-					<form class="bck3">
+					<form class="bck3" action="info.html">
 			
 						<div class="bck4">
 			
-							<h3>Name:</h3>
+							<h3 style="color: white;">Name:</h3>
 			
 						</div>
 			
@@ -139,7 +154,7 @@
 			
 						<div class="bck4">
 			
-							<h3>Email:</h3>
+							<h3 style="color: white;">Email:</h3>
 			
 						</div>
 			
@@ -148,7 +163,9 @@
 						<input type="email" name="Email" class="form-control" id="email" required>
 			
 						<br><br>
-			
+
+						<button type="submit" class="btn btn-dark">Transition to Placing an Order on a Ticket!</button>
+
 					</form>
 			
 				</center>
